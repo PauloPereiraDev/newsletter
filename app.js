@@ -35,7 +35,7 @@ app.post("/",function(req,res){
   const url="https://us20.api.mailchimp.com/3.0/lists/d4630f57ad"
   const op={
     method: "POST",
-    auth: "Paulo: 2fc74dac9595252d3a5de47572975c63-us20"
+    auth: "Paulo:2fc74dac9595252d3a5de47572975c63-us20"
   }
   const request=https.request(url,op,function(response){
     if(response.statusCode===200){
